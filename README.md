@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Define a class with a custom initialize routine.
+1. Define a class with a custom initialize method.
 2. Set instance variable attributes from initialize.
 3. Include a default argument for an initialize argument.
 
@@ -32,5 +32,3 @@ accepts an argument for the dog's name. That argument should be stored within a
 Additionally, `Dog#initialize` should accept a second optional argument for the
 dog's breed stored in an instance variable `@breed`. When none is provided, it
 should default to "Mutt".
-
-Submit your solution with `learn submit`.
